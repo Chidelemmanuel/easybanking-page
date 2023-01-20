@@ -1,0 +1,496 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public-Sans';
+}
+
+body nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(0, 0%, 100%);
+    padding-top: 10px;
+    padding: 11px;
+    margin: 0;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #1C1D21;
+    border-radius: 10px;
+}
+
+.logo > img {
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    font-weight: bolder;
+    color: hsl(233, 8%, 62%);
+}
+
+button {
+    border: none;
+    margin: 7px;
+    padding: 10px 15px;
+    color:  white;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.first-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    background-color: hsl(0, 10%, 97%);
+    margin: 0;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-left: 100px;
+}
+
+#h1 {
+    font-size: 42px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+span {
+    color: rgb(104, 104, 104);
+}
+
+.first-button {
+    border: none;
+    margin: 7px;
+    padding: 10px;
+    color:  white;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.second {
+    display: flex;
+    width: 50%;
+    height: 55vh;
+    margin: 0;
+}
+
+.image1 > img {
+    width: 500px;
+    height:  60vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.image2 > img {
+    width: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.second-button {
+    margin-top: 20px;
+    width: 20%;
+}
+
+.second-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 10%, 87%);
+    margin: 0;
+}
+
+.second-container h2 {
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.second-container p {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.online {
+    margin: 20px;
+    font-size: 13px;
+    padding: 10px;
+    color: hsl(0, 1%, 41%);
+    font-family: sans-serif;
+    width: 20%;
+}
+
+.image3 > img{
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+.online h3 {
+    padding-bottom: 10px;
+}
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 97%);
+    margin: 0;
+}
+
+.third-container h1 {
+    text-align: left;
+    margin: 10px;
+    margin-left: 100px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.in-all {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 20%;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.image4 > img {
+    width: 320px;
+    height: 220px;
+}
+
+.div h5 {
+    color: #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.div h3 {
+    font-size: 10px;
+    text-align: center;
+}
+
+.div p {
+    font-size: 13px;
+    color: hsl(0, 1%, 71%);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(233, 26%, 24%);
+    color: #fff;
+    padding: 20px;
+    font-size: 13px;
+    margin: 0;
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    position: relative;
+}
+
+.image5 p {
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    top: -2px;
+    left: 30px;
+}
+
+.link {
+    display: inline-block;
+}
+
+.link a {
+    margin: 3px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.third-button {
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.attribution {
+    font-size: 20px; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+    } 
+
+    nav ul li {
+        display: none;
+    }
+
+    .toggle-button {
+        display: flex;
+        margin-top: 5px;
+    }
+
+    body nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    button {
+        display: none;
+    }
+
+    .second-button {
+        display: flex;
+        margin-left: 10px;
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    }
+
+    .first-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 110vh;
+        margin-bottom: 0;
+    }
+
+    .first {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 370px;
+        width: 250px;
+        padding: 20px;
+    }
+
+    #h1 {
+        font-size: 75px;
+        font-weight: 900;
+    }
+
+    section {
+        font-size: 9px;
+    }
+
+    .second-button {
+        width: 70%;
+        text-align: center;
+    }
+
+    .second {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .image1 {
+        width: 280px;
+    }
+
+    .image2 > img {
+        width: 365px;
+    }
+
+    .second-container {
+        display: flex;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .second-container p {
+        margin: 15px;
+        margin-top: 20px;
+    }
+
+    .all {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p {
+        font-size: 15px;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .online {
+        margin: 20px;
+        font-size: 15px;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .third-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .in-all {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .div p {
+        font-size: 14px;
+        color: hsl(0, 0%, 52%);
+    }
+    
+    .image4 > img {
+        border-radius: 10px;
+    }
+
+    .div h5 {
+        margin-left: -160px; 
+    }
+
+    .div h3 {
+        font-size: 15px;
+        margin-left: -8px;
+        font-weight: 400;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .image5 p {
+        font-size: 22px;
+        font-weight: bold;
+        position: absolute;
+        top: -13px;
+        left: 8px;
+    }
+
+    .link {
+        margin-top: 15px;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .third-button {
+        display: flex;
+        text-align: center;
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    }
+
+    .attribution {
+        font-size: 12px;
+    }
+}
